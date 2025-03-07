@@ -4,16 +4,16 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World!");
 
-static double CalculateAverage(int[] arr)
+static double CalculateAverage(int[] array)
 {
     int sum = 0;
 
-    for (int i = 0; i < arr.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        sum += arr[i];
+        sum += array[i];
     }
 
-    return sum / arr.Length;
+    return sum / array.Length;
 }
 
 int[] arr = { 1, 2, 3, 4, 5, 6, 7 };
