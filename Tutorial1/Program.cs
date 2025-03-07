@@ -8,12 +8,14 @@ static double CalculateAverage(int[] arr)
 {
     int sum = 0;
 
-    for (int i = 0; i < arr.Length; i++)
+    for (int j = 0; j < arr.Length; j++)
     {
-        sum += arr[i];
+        sum += arr[j];
     }
 
-    return sum / arr.Length;
+    int result = sum / arr.Length;
+
+    return result;
 }
 
 int[] arr = { 1, 2, 3, 4, 5, 6, 7 };
